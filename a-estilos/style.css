@@ -1,0 +1,37 @@
+.div{
+    background-color: aqua;
+}
+
+.par{
+    
+    width:400px;
+    height:40px;
+    background-color: black;
+    color: crimson;
+    padding: 10px;
+    border-width: 20px;
+    border-style: solid ;
+    border-color: rgb(15, 15, 58);
+    box-shadow: 10px 20px rgb(45, 4, 100);
+    border-radius: 20px;
+    
+}
+.caixa{
+    color: rgb(166, 153, 248);
+    background-color: black;
+}
+#button1{
+    color:rgb(166, 153, 248);
+    background-color: black;
+    box-shadow: 8px;
+}
+
+.fotter{
+    align-items: center;
+}
+
+.imagem1{
+    border-style: solid;
+    border-color: rgb(15, 15, 58);
+    border-width: 20px;
+}

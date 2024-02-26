@@ -1,0 +1,182 @@
+.imgcar{
+    width:250px;
+    height: 200px;
+}
+.botao{
+    width:10%;
+    height:5%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-width: 10px;
+    border-style: groove ;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 5px 5px rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+
+.divisao{
+    background-color: dimgray;
+}
+
+.divi{
+    color: rgb(55, 0, 255);
+    font-size: 50px;
+    font-family: monospace;
+    font-style: oblique;
+    border-width: 10px;
+    border-style: groove ;
+    border-color: rgb(145, 0, 0);
+    border-radius: 5px;
+    background:linear-gradient(
+        to right,
+        red,
+        black
+    );
+    padding: 20px;
+    margin: 200px;
+    text-align: center;
+}
+.hh1{
+    color: cyan;
+    font-size: 22px;
+    font-style: inherit;
+    text-align: left;
+}
+.hh2{
+    color: rgb(23, 120, 177);
+    font-size: 17px;
+    font-style: italic;
+}
+.hh3{
+    color: rgb(34, 90, 155);
+    font-size: 12px;
+    font-style: initial;
+}
+#palagrafo{
+    text-align: center;
+}
+
+#div2{
+text-align: end;
+float: inline-start;
+}
+
+#div3{
+    text-align: right;
+    float: inline-end;
+
+}
+#tabelinha{
+    color: chocolate;
+    
+    background-color: black;
+    margin-left: 550px;
+}
+.linha{
+    background-color: aliceblue;
+    border-style: solid;
+   box-shadow: 5px 5px rgb(0, 0, 0);
+   
+}
+
+.lis1{
+    color: rgb(0, 4, 255);
+    marker: initial;
+    font-style:oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 50px;
+}
+.lis2{
+    color: rgb(58, 14, 139);
+    list-style-type: circle ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 25px;
+}
+#linke{
+    color: darkgreen;
+    background-color: aquamarine;
+    text-decoration: overline;
+    font-size: larger;
+    float: inline-start;
+}
+#linke:hover{
+    background-color: chartreuse;
+}
+
+#butao{
+    background-color: black;
+    color: gainsboro;
+    float: inline-end;
+    transition: transform 1s;
+    transform: translateX(0) scale(0.6);
+}
+#butao:hover,
+butao:focus{
+    background-color: crimson;
+    transform: translateX(10px) scale(1.2);
+}
+#menu{
+    background-color: rgb(61, 57, 56);
+    color: aliceblue;
+}
+
+nav {
+    background-color: #333;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    display: block;
+    color: #fff;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  nav ul li a:hover {
+    background-color: #333;
+  }
+  .li{
+        background-color: rgb(36, 34, 34);
+  }
+
+  #imagem{
+    border-style: solid;
+    border-radius: 12px;
+    width: 200px;
+    float: inline-end;
+  }
+
+  #formulario{
+    color: white;
+    background-color: #333;
+    border-radius: 40px;
+    box-shadow: 5px 5px rgb(0, 0, 0);
+  
+    
+  }
+  .flex-container{
+    float: inline-start;
+    display: flexbox;
+  }
+
+  .flex-container2{
+    float: inline-end;
+    display: flexbox;
+  }
+
+  .body{
+    background:linear-gradient(
+        to right,
+        rgb(68, 0, 255),
+        rgb(255, 255, 255)
+    );
+  }
