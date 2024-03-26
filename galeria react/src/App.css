@@ -1,0 +1,38 @@
+*{
+margin: 0;
+padding: 0;
+ }
+ header{
+    width: 100vw;
+    background-color: rgb(47, 163, 82);
+    margin: 5px;
+    padding: 15px 55px;
+ }
+header h1{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.imgbanner{
+  color: blue;
+  text-align: center;
+  
+}
+.ola{
+  color: brown;
+  text-align: center;
+}
+.galeria img{
+  height: 430px;
+  width: 430px;
+  padding: 8px;
+  
+}
+.titulo{
+  text-align: center;
+  color: blue;
+}
+.brolyy{
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
