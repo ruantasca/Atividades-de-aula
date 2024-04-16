@@ -1,0 +1,53 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+main{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+}
+.itens{
+  background-color: black;
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+ 
+  gap: 20px;
+  
+}
+
+.palavra{
+  color: black;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+.palavra2{
+  color: black;
+  background-color: rgb(0, 38, 255);
+  padding: 20px;
+}
+.palavra3{
+  color: black;
+  background-color: rgb(243, 0, 0);
+  padding: 20px;
+}
+
+
+@media screen and (max-width: 600px){
+  .itens{
+   
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    
+    
+  }
+  .palavra{width: 100%;}
+  .palavra2{width: 100%;}
+  .palavra3{width: 100%;}
+
+
+
+}

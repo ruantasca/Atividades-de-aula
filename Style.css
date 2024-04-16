@@ -1,0 +1,10 @@
+.botao{
+    background-color: black;
+    color: aqua;
+    border-radius: 10px;
+    font-size: large;
+  }
+  .sectionbotao{
+    display: flex;
+    justify-content:center;
+  }
