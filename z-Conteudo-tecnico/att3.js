@@ -111,7 +111,7 @@ function cparaf(x){
 //cparaf(25)
 
 function anobissexto(x){
-    if(x % 4 == 0){
+    if((x % 4 == 0 && x % 100 != 0) || x % 400 == 0){
     console.log("o ano é bissexto")}
     else{
 console.log("o ano não é bissexto")
@@ -120,6 +120,10 @@ console.log("o ano não é bissexto")
 }
 
 //anobissexto(2003)
+function decparabi(x){
+    console.log((x >>> 0).toString(2))
+}
+//decparabi(80)
 
 function mdc(a, b) {
     while (b !== 0) {
@@ -161,7 +165,7 @@ function maioremenor(x, y, z){
     console.log(Math.max(...arr1))
     console.log(Math.min(...arr2))
 }
-//maioremenor(2, 3, 4)
+maioremenor(2, 3, 4)
 
 function crescente (x, y, z){
     var arr = [x, y, z]
@@ -181,8 +185,16 @@ function vogais(x){
 }
 //vogais('aviao')
 
-function palavras(x){
-    var textoseparado = x.splint(" ");
-    
+function palavras(stri){
+    var contador = 1
+stri = stri.trim();
+    for (var i = 0; i < stri.length; i++){
+        if(stri[i] === ' '|| stri[i] === '.' || stri[i] === ',' || stri[i] === ':' || stri[i] === ';' || stri[i] === '<' || stri[i] === '>' || stri[i] === '´' ){
+        contador++
+        while(stri[i] === ' ' || stri[i] === '.' || stri[i] === ',' || stri[i] === ':' || stri[i] === ';' || stri[i] === '<' || stri[i] === '>' || stri[i] === '´' )
+        i++
+    }
+    }
+    console.log(contador)
 }
-palavras("o lucas é veadão")
+//palavras("esta é uma frase de exemplo")
